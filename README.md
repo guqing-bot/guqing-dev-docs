@@ -1,56 +1,23 @@
----
-title: New file
-description: Description of your new file.
----
+# Poetora 文档模板
 
-# Mintlify Starter Kit
+**中文** | [English](README-en.md)
 
-Use the starter kit to get your docs deployed and ready to customize.123456
+这是一个文档网站模板，帮助您快速搭建和自定义专业的产品文档。
 
-Click the green **Use this template** button at the top of this repo to copy the Mintlify starter kit. The starter kit contains examples with
+点击仓库顶部的绿色 **Use this template** 按钮即可使用此模板。模板包含以下功能示例：
 
-* Guide pages
+- 引导页面
+- 导航结构
+- 样式自定义
+- 常用组件
 
-* Navigation
+## 部署发布
 
-* Customizations
+通过[管理后台](https://dashboard.poetora.com/settings/organization/github-app)安装 GitHub 应用，实现代码变更的自动部署。每次推送到主分支时，文档站点会自动更新。
 
-* API reference pages
+## 需要帮助？
 
-* Use of popular components
+### 相关资源
 
-[**Follow the full quickstart guide**](https://starter.mintlify.com/quickstart)
-
-## Development
-
-Install the [Mintlify CLI](https://www.npmjs.com/package/mint) to preview your documentation changes locally. To install, use the following command:
-
-```theme="github-light" theme="github-light" dark-theme="github-dark"
-npm i -g mint
-```
-
-Run the following command at the root of your documentation, where your `docs.json` is located:
-
-```theme="github-light" theme="github-light" dark-theme="github-dark"
-mint dev
-```
-
-View your local preview at `http://localhost:3000`.
-
-## Publishing changes
-
-Install our GitHub app from your [dashboard](https://dashboard.mintlify.com/settings/organization/github-app) to propagate changes from your repo to your deployment. Changes are deployed to production automatically after pushing to the default branch.
-
-## Need help?
-
-### Troubleshooting
-
-* If your dev environment isn't running: Run `mint update` to ensure you have the most recent version of the CLI.
-
-* If a page loads as a 404: Make sure you are running in a folder with a valid `docs.json`.
-
-### Resources
-
-* [Mintlify documentation](https://mintlify.com/docs)
-
-* [Mintlify community](https://mintlify.com/community)
+- [Poetora 使用文档](https://poetora.com/docs)
+- [Poetora 用户社区](https://poetora.com/community)
