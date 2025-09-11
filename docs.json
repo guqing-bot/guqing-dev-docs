@@ -1,6 +1,6 @@
 {
-  "$schema": "https://poetora.com/docs.json",
-  "theme": "mint",
+  "$schema": "https://dashboard.poetora.com/schema/docs.json",
+  "theme": "ora",
   "name": "Poetora Starter Kit",
   "colors": {
     "primary": "#67A373",
