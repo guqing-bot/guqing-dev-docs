@@ -1,15 +1,20 @@
+
+
 # Poetora 文档模板
 
 **中文** | [English](README-en.md)
 
-这是一个文档网站模板，帮助您快速搭建和自定义专业的产品文档。123
+这是一个文档网站模板，帮助您快速搭建和自定义专业的产品文档。1232
 
 点击仓库顶部的绿色 **Use this template** 按钮即可使用此模板。模板包含以下功能示例：
 
-- 引导页面
-- 导航结构
-- 样式自定义
-- 常用组件
+* 引导页面
+
+* 导航结构
+
+* 样式自定义
+
+* 常用组件
 
 ## 部署发布
 
@@ -19,5 +24,6 @@
 
 ### 相关资源
 
-- [Poetora 使用文档](https://poetora.com/docs)
-- [Poetora 用户社区](https://poetora.com/community)
+* [Poetora 使用文档](https://poetora.com/docs)
+
+* [Poetora 用户社区](https://poetora.com/community)
