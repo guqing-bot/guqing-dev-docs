@@ -1,0 +1,128 @@
+{
+  "$schema": "https://poetora.com/docs.json",
+  "theme": "ora",
+  "name": "Poetora Starter Kit",
+  "colors": {
+    "primary": "#67A373",
+    "light": "#B3E0BE",
+    "dark": "#658D6D"
+  },
+  "background": {
+    "decoration": "gradient",
+    "color": {
+      "light": "#F9F9F9",
+      "dark": "#252525"
+    }
+  },
+  "favicon": "/favicon.svg",
+  "navigation": {
+    "languages": [
+      {
+        "language": "cn",
+        "tabs": [
+          {
+            "tab": "指南",
+            "groups": [
+              {
+                "group": "开始使用",
+                "pages": ["zh/index", "zh/quickstart"]
+              },
+              {
+                "group": "自定义",
+                "pages": ["zh/essentials/settings", "zh/essentials/navigation"]
+              },
+              {
+                "group": "编写内容",
+                "pages": [
+                  "zh/essentials/markdown",
+                  "zh/essentials/code",
+                  "zh/essentials/images"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "language": "en",
+        "tabs": [
+          {
+            "tab": "Guides",
+            "groups": [
+              {
+                "group": "Getting started",
+                "pages": ["en/index", "en/quickstart"]
+              },
+              {
+                "group": "Customization",
+                "pages": ["en/essentials/settings", "en/essentials/navigation"]
+              },
+              {
+                "group": "Writing content",
+                "pages": [
+                  "en/essentials/markdown",
+                  "en/essentials/code",
+                  "en/essentials/images"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Documentation",
+          "href": "https://poetora.com/docs",
+          "icon": "book-open-cover"
+        },
+        {
+          "anchor": "Community",
+          "href": "https://poetora.com/community",
+          "icon": "slack"
+        },
+        {
+          "anchor": "Blog",
+          "href": "https://poetora.com/blog",
+          "icon": "newspaper"
+        }
+      ]
+    }
+  },
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Support",
+        "href": "mailto:hi@poetora.com"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Dashboard",
+      "href": "https://dashboard.poetora.com"
+    }
+  },
+  "icons": {
+    "library": "fontawesome"
+  },
+  "contextual": {
+    "options": [
+      "copy",
+      "view",
+      "chatgpt",
+      "claude"
+    ]
+  },
+  "footer": {
+    "socials": {
+      "x": "https://x.com/poetora",
+      "github": "https://github.com/poetora",
+      "linkedin": "https://linkedin.com/company/poetora"
+    }
+  }
+}
