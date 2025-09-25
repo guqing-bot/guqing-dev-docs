@@ -6,10 +6,13 @@
 
 点击仓库顶部的绿色 **Use this template** 按钮即可使用此模板。模板包含以下功能示例：
 
-- 引导页面
-- 导航结构
-- 样式自定义
-- 常用组件
+* 引导页面
+
+* 导航结构
+
+* 样式自定义
+
+* 常用组件
 
 ## 部署发布
 
@@ -19,5 +22,23 @@
 
 ### 相关资源
 
-- [Poetora 使用文档](https://poetora.com/docs)
-- [Poetora 用户社区](https://poetora.com/community)
+* [Poetora 使用文档](https://poetora.com/docs)
+
+* [Poetora 用户社区](https://poetora.com/community)
+
+<ParamField query="param">
+  Enter a description
+</ParamField>
+
+<CardGroup cols={3}>
+  <Card id="1758794094925" title="New Card" icon="snowflake" iconType="light" color="var(--primary)" target="_blank" imageFit="auto-height" horizontal={false}>
+    1
+  </Card>
+  <Card id="1758794094925" title="New Card" icon="snowflake" iconType="light" color="var(--primary)" target="_blank" imageFit="auto-height" horizontal={false}>
+    2
+  </Card>
+  <Card id="1758794123089" title="新卡片" icon="snowflake" iconType="light" color="var(--primary)" target="_blank" imageFit="auto-height" horizontal={false}>
+    3
+  </Card>
+</CardGroup>
+
