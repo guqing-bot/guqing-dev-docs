@@ -38,7 +38,7 @@
     2
   </Card>
   <Card id="1758794123089" title="新卡片" icon="snowflake" iconType="light" color="var(--primary)" target="_blank" imageFit="auto-height" horizontal={false}>
-    3
+    32
   </Card>
 </CardGroup>
 
