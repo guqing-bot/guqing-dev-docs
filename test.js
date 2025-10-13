@@ -1,4 +1,4 @@
 <script>
-  const a = 4;
+  const a = 2;
   console.log(a)
 </script>
