@@ -31,13 +31,13 @@
 </ParamField>
 
 <CardGroup cols={3}>
-  <Card id="1758794094925" title="New Card" icon="snowflake" iconType="light" color="var(--primary)" target="_blank" imageFit="auto-height" horizontal={false}>
+  <Card title="New Card" icon="snowflake" color="var(--primary)" horizontal={false}>
     1
   </Card>
-  <Card id="1758794094925" title="New Card" icon="snowflake" iconType="light" color="var(--primary)" target="_blank" imageFit="auto-height" horizontal={false}>
+  <Card title="New Card" icon="snowflake" color="var(--primary)" horizontal={false}>
     2
   </Card>
-  <Card id="1758794123089" title="新卡片" icon="snowflake" iconType="light" color="var(--primary)" target="_blank" imageFit="auto-height" horizontal={false}>
+  <Card title="新卡片" icon="snowflake" color="var(--primary)" horizontal={false}>
     32
   </Card>
 </CardGroup>
