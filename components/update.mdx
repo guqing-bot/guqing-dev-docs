@@ -1,0 +1,64 @@
+---
+title: '更新日志'
+description: '跟踪变更与更新'
+icon: 'history'
+---
+
+使用 `Update` 组件以一致的格式展示更新日志、版本更新和发行说明。
+
+<Update label="2025-11-10" description="v1.0.0">
+
+## 新功能
+
+我们很高兴地宣布 Poetora v1.0.0 正式发布！这个版本带来了许多激动人心的新功能和改进。
+
+### 主要亮点
+
+- **AI 智能写作助手** - 集成先进的 AI 技术，提供智能内容生成和编辑建议
+- **实时协作功能** - 支持多人同时编辑，实时查看团队成员的修改
+- **增强的组件库** - 新增 10+ 个专业组件，满足更多文档需求
+
+### 功能改进
+
+- 提升编辑器响应速度 40%
+- 优化移动端用户体验
+- 增强代码高亮支持，新增 20+ 编程语言
+
+  <Frame caption="新版本编辑器界面展示">
+    <img
+      src="/images/components/poetora-update-hero.png"
+      alt="编辑器新界面"
+    />
+  </Frame>
+
+### 问题修复
+
+- 修复了在特定浏览器下的兼容性问题
+- 解决了大文档加载缓慢的问题
+- 优化了搜索功能的准确性
+
+</Update>
+
+## 使用说明
+
+```mdx Update example
+<Update label="2025-11-10" description="v1.0.0" tags={["Poetora"]}>
+  这是一个带有标签、说明和标记的更新。
+</Update>
+```
+
+使用多个 `Update` 组件创建[更新日志](/create/update)。
+
+## 组件属性
+
+<ParamField path="label" type="string" required>
+  更新标签。显示在左侧的主要标识文本，同时会自动创建锚点链接供页面内导航使用。
+</ParamField>
+
+<ParamField path="description" type="string">
+  更新描述。显示在标签下方的补充说明文字，用于提供更多上下文信息。
+</ParamField>
+
+<ParamField path="tags" type="string[]">
+  标签列表。用于分类更新内容的标签数组，这些标签会显示为右侧面板的过滤器，方便用户按类型筛选更新。
+</ParamField>

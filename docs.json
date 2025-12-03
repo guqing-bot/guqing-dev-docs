@@ -1,128 +1,216 @@
 {
   "$schema": "https://poetora.com/docs.json",
   "theme": "ora",
-  "name": "Poetora Starter Kit",
+  "name": "Poetora",
   "colors": {
-    "primary": "#67A373",
-    "light": "#B3E0BE",
-    "dark": "#658D6D"
+    "primary": "#40b971",
+    "light": "#81DAA5",
+    "dark": "#57A667"
   },
-  "background": {
-    "decoration": "gradient",
-    "color": {
-      "light": "#F9F9F9",
-      "dark": "#252525"
-    }
+  "favicon": "/favicon.ico",
+  "icons": {
+    "library": "lucide"
   },
-  "favicon": "/logo/light.svg",
   "navigation": {
-    "languages": [
+    "tabs": [
       {
-        "language": "cn",
-        "tabs": [
+        "tab": "文档中心",
+        "icon": "book",
+        "groups": [
           {
-            "tab": "指南",
-            "groups": [
+            "group": "快速开始",
+            "pages": ["index", "quickstart",
+            "editor"]
+          },
+          {
+            "group": "核心配置",
+            "pages": [
+              "organize/settings",
+              "organize/navigation",
+              "organize/pages",
+              "organize/hidden-pages"
+            ]
+          },
+          {
+            "group": "定制化",
+            "pages": [
+              "customize/fonts",
+              "customize/custom-scripts",
+              "customize/react-components",
+              "customize/custom-404-page"
+            ]
+          },
+          {
+            "group": "创建内容",
+            "pages": [
+              "create/text",
+              "create/code",
+              "create/image-embeds",
+              "create/lists-tables",
               {
-                "group": "开始使用",
-                "pages": ["zh/index", "zh/quickstart"]
-              },
-              {
-                "group": "自定义",
-                "pages": ["zh/essentials/settings", "zh/essentials/navigation"]
-              },
-              {
-                "group": "编写内容",
+                "group": "组件库",
+                "icon": "component",
                 "pages": [
-                  "zh/essentials/markdown",
-                  "zh/essentials/code",
-                  "zh/essentials/images"
+                  "components/accordions",
+                  "components/callouts",
+                  "components/cards",
+                  "components/columns",
+                  "components/code-groups",
+                  "components/expandables",
+                  "components/tabs",
+                  "components/steps",
+                  "components/frames",
+                  "components/fields",
+                  "components/icons",
+                  "components/update"
                 ]
-              }
+              },
+              "create/reusable-snippets",
+              "create/changelogs"
+            ]
+          },
+          {
+            "group": "优化",
+            "pages": [
+              {
+                "group": "AI 集成",
+                "icon": "bot",
+                "pages": [
+                  "ai/contextual-menu",
+                  "ai/model-context-protocol",
+                  "ai/markdown-export"
+                ]
+              },
+              "optimize/seo"
             ]
           }
         ]
       },
       {
-        "language": "en",
-        "tabs": [
-          {
-            "tab": "Guides",
-            "groups": [
-              {
-                "group": "Getting started",
-                "pages": ["en/index", "en/quickstart"]
-              },
-              {
-                "group": "Customization",
-                "pages": ["en/essentials/settings", "en/essentials/navigation"]
-              },
-              {
-                "group": "Writing content",
-                "pages": [
-                  "en/essentials/markdown",
-                  "en/essentials/code",
-                  "en/essentials/images"
-                ]
-              }
-            ]
-          }
-        ]
+        "tab": "指南",
+        "icon": "bookmark-check",
+        "pages": [{
+          "group": "最佳实践",
+          "pages": [
+            "guides/content-types",
+            "guides/improving-docs",
+            "guides/media",
+            "guides/navigation",
+            "guides/seo",
+            "guides/style-and-tone",
+            "guides/understand-your-audience"
+          ]
+        },
+        {
+          "group": "Git",
+          "pages": [
+            "guides/git-concepts",
+            "guides/branches"
+          ]
+        }]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://poetora.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Community",
-          "href": "https://poetora.com/community",
-          "icon": "slack"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://poetora.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "dark": "/logo/dark.svg",
+    "href": "https://poetora.com"
   },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:hi@poetora.com"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.poetora.com"
+  "background": {
+    "decoration": "gradient",
+    "color": {
+      "light": "#ECECEC",
+      "dark": "#1E1A1A"
     }
   },
-  "icons": {
-    "library": "fontawesome"
-  },
-  "contextual": {
-    "options": [
-      "copy",
-      "view",
-      "chatgpt",
-      "claude"
-    ]
+  "navbar": {
+    "primary": {
+      "type": "button",
+      "label": "立即使用",
+      "href": "https://poetora.com/signup"
+    }
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/poetora",
-      "github": "https://github.com/poetora",
-      "linkedin": "https://linkedin.com/company/poetora"
-    }
+      "github": "https://github.com/poetora/poetora",
+      "twitter": "https://twitter.com/poetora"
+    },
+    "links": [
+      {
+        "header": "产品",
+        "items": [
+          {
+            "label": "功能特色",
+            "href": "https://poetora.com/features"
+          },
+          {
+            "label": "定价计划",
+            "href": "https://poetora.com/pricing"
+          },
+          {
+            "label": "API 文档",
+            "href": "https://api.poetora.com/docs"
+          }
+        ]
+      },
+      {
+        "header": "资源",
+        "items": [
+          {
+            "label": "帮助中心",
+            "href": "https://help.poetora.com"
+          },
+          {
+            "label": "社区论坛",
+            "href": "https://community.poetora.com"
+          },
+          {
+            "label": "博客",
+            "href": "https://poetora.com/blog"
+          },
+          {
+            "label": "状态页面",
+            "href": "https://status.poetora.com"
+          }
+        ]
+      },
+      {
+        "header": "公司",
+        "items": [
+          {
+            "label": "关于我们",
+            "href": "https://poetora.com/about"
+          },
+          {
+            "label": "联系我们",
+            "href": "https://poetora.com/contact"
+          },
+          {
+            "label": "职业机会",
+            "href": "https://poetora.com/careers"
+          }
+        ]
+      },
+      {
+        "header": "法律",
+        "items": [
+          {
+            "label": "隐私政策",
+            "href": "https://poetora.com/privacy"
+          },
+          {
+            "label": "服务条款",
+            "href": "https://poetora.com/terms"
+          },
+          {
+            "label": "安全中心",
+            "href": "https://poetora.com/security"
+          }
+        ]
+      }
+    ]
+  },
+  "contextual": {
+    "options": ["copy", "chatgpt"]
   }
 }
