@@ -1,7 +1,7 @@
 ---
-title: '快速开始'
-description: '几分钟内部署你的文档站点'
-icon: 'rocket'
+title: "快速开始"
+description: "几分钟内部署你的文档站点"
+icon: "rocket"
 ---
 
 本快速开始指南将向你展示如何在几分钟内设置和部署你的文档站点。
@@ -9,9 +9,7 @@ icon: 'rocket'
 完成本指南后，你将拥有一个可以自定义和扩展的实时文档站点。
 
 <Info>
-
-**前提条件**: 开始之前，请[创建账号](https://poetora.com/start)并完成新手引导。
-
+  **前提条件**: 开始之前，请[创建账号](https://poetora.com/start)并完成新手引导。
 </Info>
 
 ## 开始使用
@@ -26,10 +24,11 @@ https://<your-project-name>.poetora.app
 
 你的站点 URL 立即可用。在设置文档站点时，使用此 URL 进行测试并与团队共享。
 
-<Frame>
+<Frame caption="">
   <img
     src="/images/quickstart/poetora-domain-light.png"
     alt="Poetora Domain"
+    className="mx-auto"
   />
 </Frame>
 
@@ -40,9 +39,13 @@ Poetora 提供 GitHub 应用，当你推送更改到仓库时自动部署。
 按照新手引导清单或仪表板中的说明安装 GitHub 应用。
 
 1. 在你的 Poetora 仪表板中导航到**设置**。
+
 2. 从侧边栏选择 **GitHub 应用**。
+
 3. 选择**安装 GitHub 应用**。这将打开一个新标签页到 GitHub 应用安装页面。
+
 4. 选择你想要安装应用的组织或用户账户。
+
 5. 选择你想要连接的仓库。
 
 <Info>
@@ -50,17 +53,20 @@ Poetora 提供 GitHub 应用，当你推送更改到仓库时自动部署。
   应用权限。
 </Info>
 
-<Frame>
+<Frame caption="">
   <img
     src="/images/quickstart/github-app-installation-light.png"
     alt="Poetora GitHub App"
+    className="mx-auto"
   />
 </Frame>
 
 ### 授权你的 GitHub 账户
 
 1. 在你的 Poetora 仪表板中导航到**设置**。
+
 2. 从侧边栏选择**我的个人资料**。
+
 3. 选择**授权 GitHub 账户**。这将打开一个新标签页到 GitHub 授权页面。
 
 <Info>
@@ -72,21 +78,11 @@ Poetora 提供 GitHub 应用，当你推送更改到仓库时自动部署。
 
 Poetora 提供两种创建和维护文档的工作流程：
 
-<Card
-  title="基于代码的工作流程"
-  icon="terminal"
-  horizontal
-  href="#基于代码的工作流程"
->
+<Card title="基于代码的工作流程" icon="terminal" horizontal href="#基于代码的工作流程">
   适用于喜欢在本地环境中使用现有工具的用户。点击跳转到此部分。
 </Card>
 
-<Card
-  title="Web 编辑器工作流程"
-  icon="mouse-pointer-2"
-  horizontal
-  href="#web-编辑器工作流程"
->
+<Card title="Web 编辑器工作流程" icon="mouse-pointer-2" horizontal href="#web-编辑器工作流程">
   适用于喜欢在 Web
   浏览器中使用可视化界面的用户。点击跳转到此部分。
 </Card>
@@ -100,6 +96,7 @@ Poetora 提供两种创建和维护文档的工作流程：
 设置环境后，你可以开始编辑文档文件。例如，更新介绍页面的标题：
 
 1. 打开在新手引导期间创建的仓库。
+
 2. 打开 `index.mdx` 并找到文件顶部：
 
 ```mdx index.mdx
@@ -109,7 +106,7 @@ description: '这是文档的介绍'
 ---
 ```
 
-3. 将 `title` 字段更新为 `"Hello World"`。
+1. 将 `title` 字段更新为 `"Hello World"`。
 
 ```mdx index.mdx {2}
 ---
@@ -126,12 +123,7 @@ Poetora 自动检测更改，构建你的文档，并将更新部署到你的站
 
 部署完成后，你的最新更新将在 `<your-project-name>.poetora.app` 上可用。
 
-<Card
-  title="跳转到添加自定义域名"
-  icon="arrow-down"
-  href="#添加自定义域名"
-  horizontal
->
+<Card title="跳转到添加自定义域名" icon="arrow-down" horizontal href="#添加自定义域名">
   可选择跳过 Web
   编辑器工作流程，直接跳转到添加自定义域名。
 </Card>
@@ -143,6 +135,7 @@ Web 编辑器工作流程提供所见即所得 (WYSIWYG) 界面来创建和编�
 ### 访问 Web 编辑器
 
 1. 登录到你的[仪表板](https://dashboard.poetora.com)。
+
 2. 在左侧边栏选择**编辑器**。
 
 <Info>
@@ -181,9 +174,9 @@ Web 编辑器工作流程提供所见即所得 (WYSIWYG) 界面来创建和编�
 
 输入你的域名（例如，`docs.yourcompany.com`）并按照提供的说明配置域名提供商的 DNS 设置。
 
-| 记录类型 | 名称            | 值                | TTL  |
-| -------- | --------------- | ----------------- | ---- |
-| CNAME    | docs (或子域名) | cname.poetora.app | 3600 |
+| 记录类型  | 名称| 值| TTL|
+| ----- | --- | --- | --- |
+| CNAME | docs (或子域名)| cname.poetora.app| 3600|
 
 <Info>
   DNS 更改可能需要长达 48
@@ -194,37 +187,20 @@ Web 编辑器工作流程提供所见即所得 (WYSIWYG) 界面来创建和编�
 
 恭喜！你已成功使用 Poetora 部署了文档站点。以下是增强文档的建议后续步骤：
 
-<Card
-  title="配置全局设置"
-  icon="settings"
-  href="settings"
-  horizontal
->
+<Card title="配置全局设置" icon="settings" horizontal href="settings">
   使用 `docs.json`
   文件配置站点范围的样式、导航、集成等。
 </Card>
-<Card
-  title="自定义主题"
-  icon="paintbrush"
-  href="/settings#param-theme"
-  horizontal
->
+
+<Card title="自定义主题" icon="paintbrush" horizontal href="/settings#param-theme">
   了解如何自定义文档站点的颜色、字体和整体外观。
 </Card>
-<Card
-  title="组织导航"
-  icon="map"
-  href="navigation"
-  horizontal
->
+
+<Card title="组织导航" icon="map" horizontal href="navigation">
   使用直观的导航结构化你的文档，帮助用户找到所需内容。
 </Card>
-<Card
-  title="添加交互式组件"
-  icon="puzzle"
-  href="/components/accordions"
-  horizontal
->
+
+<Card title="添加交互式组件" icon="puzzle" horizontal href="/components/accordions">
   使用手风琴、标签页和代码示例等交互式组件增强你的文档。
 </Card>
 
@@ -232,7 +208,7 @@ Web 编辑器工作流程提供所见即所得 (WYSIWYG) 界面来创建和编�
 
 如果在设置过程中遇到问题，请查看这些常见的故障排除解决方案：
 
-<Accordions>
+<Accordions type="single">  
   <Accordion title="更改未反映在实时站点上">
     部署可能需要几分钟时间。检查你的 GitHub
     Actions（对于基于代码的工作流程）或 Poetora
@@ -245,3 +221,5 @@ Web 编辑器工作流程提供所见即所得 (WYSIWYG) 界面来创建和编�
     等工具验证你的 CNAME 记录。
   </Accordion>
 </Accordions>
+
+1
